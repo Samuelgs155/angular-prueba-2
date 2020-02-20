@@ -50,7 +50,7 @@ export class ModalUploadComponent implements OnInit {
       resp => {
         //console.log(resp);
         this._modalUploadService.notificacion.emit( resp );
-        //this._modalUploadService.ocultarModal();
+        //this._modalUploadService.ocultarModal(); 
         this.cerrarModal();
       }
     )
